@@ -13,6 +13,8 @@ pip2 install html2text
 sleep 2
 pip2 install requests
 sleep 2
+pip2 install nmap
+sleep 2
 pip2 install mechanize
 clear
 echo "installing finish please enter python2 tool.py"
