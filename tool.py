@@ -47,7 +47,7 @@ def dos(host):
     for i in range(1,conn):
         try:
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            s.setdefaulttimeout(5)
+            s.settimeout(0.05)
         except socket.error:
             print "\033[91mERROR SERVER DOWN\033[92m"
             continue
