@@ -26,6 +26,9 @@ def pilih():
 			main()
 		elif pil == "t":
 			raise SystemExit("\njangan lupa mampir lagi :D\n")
+		else:
+			print ("\n\nmasukin pilihan y untuk menu awal dan t untuk keluar\n\n")
+			pilih()
 		return
 		
 hem = p + """					\033[104mDARKTOOLS\033[0m\033[95m
