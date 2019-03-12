@@ -13,6 +13,7 @@ echo "update finish :)"
 sleep 2
 clear
 cd tools
-echo " in tools wait 2 seccond"
+echo "in tools wait 2 seccond"
+echo ""
 sleep 2
 python2 tool.py
