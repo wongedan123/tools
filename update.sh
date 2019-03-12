@@ -2,7 +2,7 @@ clear
 echo ""
 echo "please wait deleting old tools and installing new tools :)"
 sleep 2
-ls
+cd ../
 sleep 1
 rm -rf tools
 git clone https://github.com/wongedan123/tools
