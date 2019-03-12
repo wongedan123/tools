@@ -1,5 +1,8 @@
 # tools
-One in eight tools for hacking :v
+perhatian untuk warga indonesia</br>
+tools ini akan terus saya perbarui</br>
+sampai 20fitur jika ingin meng updatenya</br>
+cukup ketik sh update.sh :)
 
 how to install in termux</br></br>
 ● apt-get install git</br>
