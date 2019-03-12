@@ -11,3 +11,4 @@ how to install in termux</br></br>
 ● chmod +x tool.py</br>
 ● sh install.sh</br>
 ● python2 tool.py</br>
+● note : sh update.sh => untuk pembaruan tools
