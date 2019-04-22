@@ -1,6 +1,6 @@
 from datetime import datetime;import random;import nmap,json,html2text,subprocess,os,sys,mechanize,requests,urllib;from time import sleep;from socket import *;from hashlib import *;from urllib2 import *;from string import *;from random import *;import re;
-from modul1 import *
-from jon1 import *
+from modul import *
+from jon import *
 #import kontol
 #coded by Mr.w0n63d4n
 def pilih():
