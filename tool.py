@@ -287,6 +287,7 @@ def cobra():
     pilih()
 
 def main():
+    global pilih()
     lilo_stres;
     sleep(2);
     subprocess.call("clear", shell=True);
@@ -302,7 +303,6 @@ def main():
     print m + "[" + p + "09" + m + "]" + g + ".Exit tools" + r 
     print m + "[" + p + "10" + m + "]" + g + ".subdomain scanner\n" + r
     choice = raw_input(p + "[" + b + "+" + p + "]" + g + " Enter Your Choice: ")
-    global pilih()
     if choice == '9' or choice == '09' or choice == 'sembilan':
     	sleep(1);
     	subprocess.call("clear", shell = True);
@@ -313,7 +313,6 @@ def main():
     if choice == '17' or choice == 'tujuh belas':
 			os.system("clear")
 			print menu
-			global pilih()
 			wibu = raw_input("\033[96mmasukan pilihan > \033[92m")
 			if wibu == "1" or wibu == "01":
 				one(),pilih()
