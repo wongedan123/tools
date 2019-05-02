@@ -309,7 +309,7 @@ def main():
     	raise SystemExit("\nterimkasih sudah berkunjung :')\n")
     	pass
     if choice == '12' or choice == 'duabelas':
-        dios(),pilih()
+        dios()
     if choice == '17' or choice == 'tujuh belas':
 			os.system("clear")
 			print menu
