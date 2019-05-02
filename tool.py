@@ -353,7 +353,7 @@ def main():
     if choice == '5' or choice == '05' or choice == 'lima':
         jalan(yopie_gans),pilih()
     if choice == '16' or choice == 'enam belas':
-        depes(),pilih()
+        depes()
     if choice == '15' or choice == 'limabelas':
         import gua_cans
     if choice == '14' or choice == 'empatbelas':
