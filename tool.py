@@ -287,7 +287,7 @@ def cobra():
     pilih()
 
 def main():
-    global pilih()
+    global pilih
     lilo_stres;
     sleep(2);
     subprocess.call("clear", shell=True);
